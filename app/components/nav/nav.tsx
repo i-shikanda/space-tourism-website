@@ -12,24 +12,24 @@ export default function Nav() {
         />
       </div>
       <ul className="flex bg-gray-700 bg-opacity-30 backdrop-blur-md items-center px-20 uppercase space-x-8">
-        <a href="" className="h-full border-b-2 py-8">
+        <a href="/" className="h-full border-b-2 py-8">
           <li >
             <span className="font-bold">00 </span>Home
           </li>
         </a>
-        <a href="" className="h-full active:border-b-2 py-8">
+        <a href="/destination" className="h-full active:border-b-2 py-8">
           <li>
             <span className="font-bold">01 </span>Destinations
           </li>
         </a>
-        <a href="" className="h-full active:border-b-2 py-8">
+        <a href="/crew" className="h-full active:border-b-2 py-8">
           <li>
-            <span className="font-bold">02 </span>About
+            <span className="font-bold">02 </span>Crew
           </li>
         </a>
-        <a href="" className="h-full active:border-b-2 py-8">
+        <a href="/technology" className="h-full active:border-b-2 py-8">
           <li>
-            <span className="font-bold">03 </span>Contact
+            <span className="font-bold">03 </span>Technology
           </li>
         </a>
       </ul>

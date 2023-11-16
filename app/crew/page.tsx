@@ -1,5 +1,5 @@
 export default function Home () {
-  crew = [
+  const crew = [
     {
       "name": "Douglas Hurley",
       "images": {
