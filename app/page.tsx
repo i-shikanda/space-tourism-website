@@ -1,8 +1,21 @@
 import Nav from "./components/nav/nav";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="h-[100vh]">
+    <section className="h-[100vh] relative">
+      <div className="absolute w-full h-full -z-10">
+        <div className="relative h-full w-full">
+        <Image
+          src="/assets/home/background-home-desktop.jpg"
+          objectFit="cover"
+          alt="background"
+          objectPosition="center"
+          layout="fill"
+          quality={100}
+        />
+        </div>
+      </div>
       <header className="w-full">
         <Nav />
       </header>
