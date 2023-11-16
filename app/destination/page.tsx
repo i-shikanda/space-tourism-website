@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Nav from "../components/nav/nav";
+
 export default function Home () {
   const destinations = [
     {
@@ -44,7 +47,21 @@ export default function Home () {
 
   return (    
     <section>
-     name
+      <header>
+        <Nav/>
+      </header>
+      <div className="px-20">
+        <div className="uppercase text-[28px]">
+          <h1>
+            <span className=" text-[#fff]">
+              01 
+            </span>
+            Pick your destination
+          </h1>
+        </div>
+        <div>
+        </div>
+      </div>
     </section>
   )
 }
